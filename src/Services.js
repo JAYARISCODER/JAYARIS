@@ -235,8 +235,8 @@ const Services = () => {
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/services">Services</Nav.Link>
               <Nav.Link as={Link} to="/testimonials">Testimonials</Nav.Link>
-              <Nav.Link href="#contact">Career</Nav.Link>
-              <Nav.Link href="#contact">Contact Us</Nav.Link>
+              <Nav.Link as={Link} to="/career">Career</Nav.Link>
+              <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
             </Nav>
 
             {/* Right: Signup + Language - these will also collapse */}
