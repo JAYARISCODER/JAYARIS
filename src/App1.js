@@ -412,7 +412,6 @@ export default function App1() {
      <>
       <ScrollToTop />
     <Routes>
-      <Route path="/JAYARIS1" element={<HomePage />} /> 
       <Route path="/" element={<HomePage />} />
       <Route path="/services" element={<Services />} />
       <Route path="/about" element={<AboutUs />} />
